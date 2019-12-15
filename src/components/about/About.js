@@ -15,7 +15,7 @@ class About extends Component {
                 </div>
                 <div className="nine columns main-col">
                   <h2>About Me</h2>
-                  <p> I grew up in Kalamazoo, Michigan, before heading out East to go to Yale. I walked on to the Women's Varisty Crew Team and majored in Computer Science and Math.
+                  <p> I grew up in Kalamazoo, Michigan, before heading out East to go to Yale. I walked on to the Women's Varsity Crew Team and majored in Computer Science and Math.
                       After four years of problem sets and <a href="https://en.m.wikipedia.org/wiki/Indoor_rower">erg</a> tests, I've spent my time in New York State. From CS to Finance, 
                       I enjoy running and all other forms of exercise, and have completed multiple marathons and one IRONMAN 70.3 race to date. When I'm not working or working out, I'm 
                       usually hanging out with my dog, Oberon. 

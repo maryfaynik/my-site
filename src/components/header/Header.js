@@ -19,7 +19,7 @@ class Header extends React.Component{
           <div className="row banner">
             <div className="banner-text">
                 <h1 className="responsive-headline">I'm {info.name}</h1>
-                <h2><em>Software engineer</em> experienced in JS and Ruby on Rails based <span>web development</span>
+                <h2><em>Software engineer</em> experienced in JS and Ruby on Rails based <span>web development.</span>
                   <br></br>
                   Background in <span>computer science</span> and experience in <span>finance</span> and <span>fitness</span>. 
                   <br></br>
