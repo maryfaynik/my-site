@@ -1,9 +1,9 @@
 import React from 'react'
+import {info} from './headerData'
 
 class Header extends React.Component{
     
     render()  {
-        let info = this.props.resumeData
         return (
         <header id="home">
           <nav id="nav-wrap">
@@ -14,23 +14,25 @@ class Header extends React.Component{
               <li><a className="smoothscroll" href="#about">About</a></li>
               <li><a className="smoothscroll" href="#resume">Resume</a></li>
               <li><a className="smoothscroll" href="#portfolio">Projects</a></li>
-              <li><a className="smoothscroll" href="#contact">Contact</a></li>
             </ul> 
           </nav>
           <div className="row banner">
             <div className="banner-text">
-              <h1 className="responsive-headline">I'm {info.name}</h1>
-              <h3>I'm a NYC based <span>software developer</span>, <span>problem solver</span> and <span>fitness finatic</span> DOING SOME AWESOME STUFF... Let's <a className="smoothscroll" href="#about">start scrolling</a>
-                and learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
-              <hr />
-              <ul className="social">
-                <li><a href="https://www.linkedin.com/in/mary-farner/"><i className="fab fa-linkedin" /></a></li>
-                <li><a href="https://github.com/maryfarner18"><i className="fab fa-github" /></a></li>
-                <li><a href="https://medium.com/@maryfarner"><i className="fab fa-medium" /></a></li>
-                <li><a href="https://www.instagram.com/maryfarner/"><i className="fab fa-instagram" /></a></li>
-                <li><a href="https://www.facebook.com/mary.farner"><i className="fab fa-facebook" /></a></li>
-                
-              </ul>
+                <h1 className="responsive-headline">I'm {info.name}</h1>
+                <h2><em>Software engineer</em> experienced in JS and Ruby on Rails based <span>web development</span>
+                  <br></br>
+                  Background in <span>computer science</span> and experience in <span>finance</span> and <span>fitness</span>. 
+                  <br></br>
+                  Strong <em>people and project management</em> skills to help small teams drive <span>growth</span> and <span>success.</span>
+                </h2>
+                <br></br>
+                <h3>Start scrolling to learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
+                <hr />
+                <ul className="social">
+                    <li><a href={info.links.linkedin}><i className="fab fa-linkedin" /></a></li>
+                    <li><a href={info.links.github}><i className="fab fa-github" /></a></li>
+                    <li><a href={info.links.medium}><i className="fab fa-medium" /></a></li>
+                </ul>
             </div>
           </div>
           <p className="scrolldown">
