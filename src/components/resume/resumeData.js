@@ -47,7 +47,7 @@ let resumeData = {
         "id": 2,
         "university": "Flatiron School",
         "major": "Web Development",
-        "degree": "",
+        "degree": "Bootcamp",
         "graduation": "2020"
       }
     ],
