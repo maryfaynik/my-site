@@ -15,13 +15,15 @@ class About extends Component {
                 </div>
                 <div className="nine columns main-col">
                   <h2>About Me</h2>
-                  <p> I grew up in Kalamazoo, Michigan, before heading out East to go to Yale. I walked on to the Women's Varsity Crew Team and majored in Computer Science and Math.
-                      After four years of problem sets and <a href="https://en.m.wikipedia.org/wiki/Indoor_rower">erg</a> tests, I've spent my time in New York State. From CS to Finance, 
-                      I enjoy running and all other forms of exercise, and have completed multiple marathons and one IRONMAN 70.3 race to date. When I'm not working or working out, I'm 
+                  <p> I grew up in Kalamazoo, Michigan, before heading to the East Coast to go to Yale. I walked on to the Women's Varsity Crew Team and majored in Computer Science and Math.
+                      After four years of problem sets and <a href="https://en.m.wikipedia.org/wiki/Indoor_rower">erg</a> tests, I moved from Connecticut to New York, and have since spent most of my professional career in New York City. 
+                      From Finance to Fitness, I've been in various different fields and roles to date, gaining experience in markets, finance, operations, project manangement, programming, and business development.  
+                      Outisde of work, I enjoy running and all other forms of exercise, and I've completed multiple marathons and one IRONMAN 70.3 race to date. When I'm not working out, I'm 
                       usually hanging out with my dog, Oberon. 
                   </p>
                   <div className="row">
                     <div className="columns contact-details">
+                      <br></br>
                       <h2>Contact Details</h2>
                       <p className="address">
                         <span>(269)267-1193</span><br />
@@ -29,6 +31,7 @@ class About extends Component {
                       </p>
                     </div>
                     <div className="columns download">
+                      <br></br><br></br>
                       <p>
                         <a href="./files/resume.pdf" download="maryfarner_resume"className="button"><i className="fa fa-download" />Download Resume</a>
                       </p>
