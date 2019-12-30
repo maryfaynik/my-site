@@ -13,7 +13,7 @@ class Header extends React.Component{
               <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
               <li><a className="smoothscroll" href="#about">About</a></li>
               <li><a className="smoothscroll" href="#resume">Resume</a></li>
-              <li><a className="smoothscroll" href="#portfolio">Projects</a></li>
+              <li><a className="smoothscroll" href="#projects">Projects</a></li>
             </ul> 
           </nav>
           <div className="row banner">
@@ -29,9 +29,9 @@ class Header extends React.Component{
                 <h3>Start scrolling to learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
                 <hr />
                 <ul className="social">
-                    <li><a href={info.links.linkedin}><i className="fab fa-linkedin" /></a></li>
-                    <li><a href={info.links.github}><i className="fab fa-github" /></a></li>
-                    <li><a href={info.links.medium}><i className="fab fa-medium" /></a></li>
+                    <li><a target="_blank" href={info.links.linkedin}><i className="fab fa-linkedin" /></a></li>
+                    <li><a target="_blank" href={info.links.github}><i className="fab fa-github" /></a></li>
+                    <li><a target="_blank" href={info.links.medium}><i className="fab fa-medium" /></a></li>
                 </ul>
             </div>
           </div>

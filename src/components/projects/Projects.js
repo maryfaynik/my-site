@@ -36,7 +36,8 @@ class Projects extends Component {
               <span className="categories"><i className="fa fa-tag" />{project.tags}</span>
             </div>
             <div className="link-box">
-              <a href={project.link}>Check It Out</a>
+              <a target="_blank" href={project.link}>[Code]</a>
+              {project.demo !== "" ? <a target="_blank" href={project.demo}>   [Demo]</a> : null}
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>
