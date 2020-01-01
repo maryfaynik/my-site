@@ -1,7 +1,7 @@
 export const projects = [
     {
         "id": 1,
-        "title": "On Target Fitness Manager",
+        "title": "On Target Fitness Manager (Currently Working)",
         "link": "https://github.com/maryfarner18/training-frontend",
         "image": "./images/fitnest.png",
         "demo": "",
@@ -37,7 +37,7 @@ export const projects = [
         "image": "./images/46North.jpg",
         "short_description": "short stuff",
         "long_description": "long stuff",
-        "tags": "tag1, tag2"
+        "tags": "JS, Node.JS"
     },
     
 
