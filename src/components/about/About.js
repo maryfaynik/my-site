@@ -26,7 +26,7 @@ class About extends Component {
                       <br></br>
                       <h2>Contact Details</h2>
                       <p className="address">
-                        <span>(269)267-1193</span><br />
+                        <span>(269)267-1103</span><br />
                         <span><a href="mailto: maryfarner@gmail.com">maryfarner@gmail.com</a></span>
                       </p>
                     </div>
