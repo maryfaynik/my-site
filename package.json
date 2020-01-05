@@ -15,7 +15,7 @@
     "react-scripts": "3.2.0",
     "semantic-ui-react": "^0.88.2"
   },
-  "homepage": "http://maryfarner18.github.io/my-site",
+  "homepage": "http://www.maryfarner.me",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
