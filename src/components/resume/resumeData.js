@@ -51,7 +51,7 @@ let resumeData = {
         "graduation": "2020"
       }
     ],
-    "skills": [ "JavaScript", "React", "Ruby", "Rails", "SQLite", "PostgreSQL", "C", "Java", "Python", "C++", "CSS", "HTML", "SQL", "Heroku", "Github", "MS Office"]
+    "skills": [ "JavaScript", "React", "Ruby", "Rails", "SQLite", "PostgreSQL", "C", "Java", "Python", "C++", "CSS", "HTML", "SQL", "Heroku", "AWS", "Github", "MS Office"]
 
     }
   export default resumeData
