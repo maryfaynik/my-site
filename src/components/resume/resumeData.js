@@ -32,7 +32,7 @@ let resumeData = {
         "position": "Associate Computer Scientist",
         "start": "2016",
         "end": "2017",
-        "description": "Research and development in the areas of Command, Control, Communications, Computers, and Intelligence (C4I)      to provide for the security, growth, and success of the Warfighter. Held a Top-Secret security clearance. Acted as a member of AFRL’s in-house expansion research team. Processed and analyzed data to assist fundamentally in informed decision-making and increased awareness for DoD-wide operations."
+        "description": "Research and development in the areas of Command, Control, Communications, Computers, and Intelligence (C4I) to provide for the security, growth, and success of the Warfighter. Held a Top-Secret security clearance. Acted as a member of AFRL’s in-house expansion research team. Processed and analyzed data to assist fundamentally in informed decision-making and increased awareness for DoD-wide operations."
       }
     ],
     "education": [

@@ -36,8 +36,9 @@ class Projects extends Component {
               <span className="categories"><i className="fa fa-tag" />{project.tags}</span>
             </div>
             <div className="link-box">
-              <a target="_blank" rel="noopener noreferrer" href={project.link}>[Code]</a>
-              {project.demo !== "" ? <a target="_blank" rel="noopener noreferrer" href={project.demo}>   [Demo]</a> : null}
+              {project.code !== "" ? <a target="_blank" rel="noopener noreferrer" href={project.code}> [Code]</a> : null}
+              {project.demo !== "" ? <a target="_blank" rel="noopener noreferrer" href={project.demo}> [Demo]</a> : null}
+              {project.live !== "" ? <a target="_blank" rel="noopener noreferrer" href={project.live}> [Live]</a> : null}
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>
