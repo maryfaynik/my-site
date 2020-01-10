@@ -2,8 +2,8 @@ export const projects = [
     {
         "id": 1,
         "title": "On Target Fitness Manager (Currently Working)",
-        "code": "https://github.com/maryfarner18/training-frontend",
         "image": "./images/fitnest.png",
+        "code": "https://github.com/maryfarner18/training-frontend",
         "live": "https://master.d3hjjurzw1rzur.amplifyapp.com/",
         "demo": "",
         "short_description": "An app to manage your personal training business",
@@ -13,8 +13,8 @@ export const projects = [
     {
         "id": 2,
         "title": "Critter Crossing",
-        "code": "https://github.com/maryfarner18/critter-crossing-frontend",
         "image": "./images/critter.png",
+        "code": "https://github.com/maryfarner18/critter-crossing-frontend",
         "demo": "https://youtu.be/Zkm7kYnViZc",
         "live": "",
         "short_description": "A fun game just like one we all know and love",
@@ -37,7 +37,7 @@ export const projects = [
         "title": "46North.org",
         "code": "",
         "demo": "",
-        "live": "www.46north.org",
+        "live": "https://46north.org",
         "image": "./images/46North.jpg",
         "short_description": "short stuff",
         "long_description": "long stuff",
