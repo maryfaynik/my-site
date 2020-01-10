@@ -37,7 +37,7 @@ export const projects = [
         "title": "46North.org",
         "code": "",
         "demo": "",
-        "live": "www.46north.org"
+        "live": "www.46north.org",
         "image": "./images/46North.jpg",
         "short_description": "short stuff",
         "long_description": "long stuff",
