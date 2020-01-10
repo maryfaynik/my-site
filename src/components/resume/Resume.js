@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import resumeData from './resumeData'
-import { Button } from 'semantic-ui-react'
+import { Label, Icon } from 'semantic-ui-react'
 
 class Resume extends Component {
     
@@ -32,9 +32,9 @@ class Resume extends Component {
       })
     }
 
-    renderSkills = () => {
-      return resumeData.skills.map(skill => {
-        return  <Button disabled key={skill}>{skill}</Button>
+    renderSkills = (key) => {
+      return resumeData.skills[key].map(skill => {
+        return  <Label key={skill}>{skill}</Label>
       })
     }
 
@@ -64,14 +64,20 @@ class Resume extends Component {
           ----------------------------------------------- */}
             <div className="row skill">
               <div className="three columns header-col">
-                <h1><span>Skills</span></h1>
+                <h1><span>Skills & Interests</span></h1>
               </div>
               <div className="nine columns main-col">
+                <h6 className="info">Technical Skills</h6>
                 <div className="skills">
-                  {this.renderSkills()}
-                </div>{/* end skill-bars */}
-              </div> {/* main-col end */}
-            </div> {/* End skills */}
+                  {this.renderSkills("tech")}
+                </div>
+                <h6 className="info">Interests and Hobbies</h6>
+                <div className="skills">
+                  {this.renderSkills("interests")}
+                </div>
+
+              </div>
+            </div>
             <br></br><br></br>
             <p className= "scrolldown">
                 <a className="smoothscroll" href="#projects"><i className="icon-down-circle" /></a>

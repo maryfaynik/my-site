@@ -2,7 +2,7 @@ export const projects = [
     {
         "id": 1,
         "title": "On Target Fitness Manager (Currently Working)",
-        "image": "./images/fitnest.png",
+        "image": "./images/OnTarget.png",
         "code": "https://github.com/maryfarner18/training-frontend",
         "live": "https://master.d3hjjurzw1rzur.amplifyapp.com/",
         "demo": "",
@@ -39,9 +39,9 @@ export const projects = [
         "demo": "",
         "live": "https://46north.org",
         "image": "./images/46North.jpg",
-        "short_description": "short stuff",
-        "long_description": "long stuff",
-        "tags": "JS, Node.JS"
+        "short_description": "Non-profit Organization website",
+        "long_description": "Website for 46North, a foundation created to better focus the charitable work of the Farner family.",
+        "tags": "JS, Node.JS, React"
     },
     
 
