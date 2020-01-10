@@ -315,14 +315,13 @@ ul#nav li.current a { color: #11ABB0; }
    display: flex;
    justify-content: space-around;
    align-items: center;
+   align-content: space-around;
    flex-wrap: wrap;
-   min-height: 20vh;
-   /* font: 18px/24px 'opensans-regular', sans-serif; */
+   min-height: 10vh;
 }
 
 .skills > * {
    margin: auto;  /* Magic! */
-   width: 8vw;
 }
 
 
