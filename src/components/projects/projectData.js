@@ -7,7 +7,7 @@ export const projects = [
         "live": "https://master.d3hjjurzw1rzur.amplifyapp.com/",
         "demo": "",
         "short_description": "An app to manage your personal training business",
-        "long_description": "Web-based app for mamanging a PT business, from scheduling to payroll. Currently working. Ruby / Rails backend with JS/React/Redux frontend. Utilizes React Big Calendar and Semantic UI",
+        "long_description": "Web-based app for managing a PT business, from scheduling to payroll. Currently working. Ruby / Rails backend with JS/React/Redux frontend. Utilizes React Big Calendar and Semantic UI",
         "tags": "JS, React, Redux, Ruby on Rails, Postgres"
     },
     {
