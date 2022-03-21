@@ -13,15 +13,15 @@ class Header extends React.Component{
               <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
               <li><a className="smoothscroll" href="#about">About</a></li>
               <li><a className="smoothscroll" href="#resume">Resume</a></li>
-              <li><a className="smoothscroll" href="#projects">Projects</a></li>
+              <li><a className="smoothscroll" href="#projects">Highlighted Projects</a></li>
             </ul> 
           </nav>
           <div className="row banner">
             <div className="banner-text">
                 <h1 className="responsive-headline">I'm {info.name}</h1>
-                <h2><em>Software engineer</em> experienced in JS and Ruby on Rails based <span>web development.</span>
+                <h2><em>Full stack developer</em> experienced in React / Rails based <span>web development.</span>
                   <br></br>
-                  Background in <span>computer science</span> and experience in <span>finance</span> and <span>fitness</span>. 
+                  Background in <span>computer science</span> and experience in <span>pet care</span>, <span>finance</span> and <span>fitness</span>. 
                   <br></br>
                   Strong <em>people and project management</em> skills to help small teams drive <span>growth</span> and <span>success.</span>
                 </h2>

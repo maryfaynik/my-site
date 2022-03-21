@@ -6,9 +6,9 @@ let resumeData = {
         "id": 1,
         "company": "Milo",
         "position": "Fullstack Software Developer",
-        "start": "2020",
+        "start": "February, 2020",
         "end": "Present",
-        "description": "Developing software products to make veterinary healthcare workers happy. "
+        "description": "Developing software products to make veterinary healthcare workers happy. Creating full-stack solutions for a quickly growing web app, with a focus on API integrations with third parties. Collaborate closely with the product team and end users to define, develop, execute, and troubleshoot features."
       },
       {
         "id": 2,
@@ -60,8 +60,8 @@ let resumeData = {
       }
     ],
     "skills": {
-      "tech": [ "JavaScript", "React", "Ruby", "Rails","GraphQL", "SQLite", "PostgreSQL", "C", "Java", "Python", "C++", "CSS", "HTML", "MJML", "SQL", "Heroku", "AWS", "Github"],
-      "interests": ["Fitness", "Running", "Rowing", "Marathon", "Triathlon", "Golf", "Cooking", "Knitting", "Crossfit", "Spinning"]
+      "tech": [ "React", "Ruby", "Rails", "GraphQL", "JavaScript", "Typescript", "PostgreSQL", "Heroku", "AWS", "S3", "Redis", "Sidekiq", "Clockwork", "Github",  "SQL", "HTTP", "SOAP", "XML", "JSON", "C", "Java", "Python", "C++", "SQLite",  "CSS", "HTML", "MJML"],
+      "interests": ["Fitness", "Running", "Cycling", "Rowing", "Marathon", "Triathlon", "Golf", "Cooking", "Knitting"]
     }
     }
   export default resumeData

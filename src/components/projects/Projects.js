@@ -29,17 +29,10 @@ class Projects extends Component {
       return projects.map((project, index) => {
         return (
           <div key={project.id} id={`modal-${index}`} className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src={project.image} alt="" />
             <div className="description-box">
               <h4>{project.title}</h4>
               <p>{project.long_description}</p>
               <span className="categories"><i className="fa fa-tag" />{project.tags}</span>
-            </div>
-            <div className="link-box">
-              {project.code !== "" ? <a target="_blank" rel="noopener noreferrer" href={project.code}> [Code]</a> : null}
-              {project.demo !== "" ? <a target="_blank" rel="noopener noreferrer" href={project.demo}> [Demo]</a> : null}
-              {project.live !== "" ? <a target="_blank" rel="noopener noreferrer" href={project.live}> [Live]</a> : null}
-              <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>
         )
@@ -52,7 +45,7 @@ class Projects extends Component {
         <section id="projects">
           <div className="row">
             <div className="twelve columns collapsed">
-              <h1>Check Out Some of My Projects</h1>
+              <h1>Highlighted Projects</h1>
               {/* project-wrapper */}
               <div id="project-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
                 {this.renderProjects()}
