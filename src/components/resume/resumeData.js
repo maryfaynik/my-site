@@ -1,14 +1,22 @@
 let resumeData = {
-    "name": "Mary Farner",
+    "name": "Mary Faynik (Farner)",
     "role": "Fullstack Developer",
     "work_experience": [
+      {
+        "id": 0,
+        "company": "Bond Vet",
+        "position": "Senior Fullstack Software Developer",
+        "start": "September, 2023",
+        "end": "Present",
+        "description": "Continues to contributes to the both internal and external products, with increased responsibility and ownership of the architecture and implementation of new projects, along with the enhancement of the current environment."
+      },
       {
         "id": 1,
         "company": "Bond Vet",
         "position": "Fullstack Software Developer",
         "start": "April, 2022",
-        "end": "Present",
-        "description": "Contributes to the growth of both internal and external client-facing web applications. Applies a slight back end / data focus to support integrations and features supporting operational and financial performance and growth."
+        "end": "September, 2023",
+        "description": "Contributed to the growth of both internal and external client-facing web applications. Applies a slight back end / data focus to support integrations and features supporting operational and financial performance and growth."
       },
       {
         "id": 2,

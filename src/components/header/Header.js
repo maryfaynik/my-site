@@ -19,7 +19,7 @@ class Header extends React.Component{
           <div className="row banner">
             <div className="banner-text">
                 <h1 className="responsive-headline">I'm {info.name}</h1>
-                <h2><em>Full stack developer</em> experienced in React / Rails based <span>web development.</span>
+                <h2><em>Full stack developer</em> experienced in React, Rails, and Node.js based <span>web development.</span>
                   <br></br>
                   Background in <span>computer science</span> and experience in <span>pet care</span>, <em>finance</em>, and <span>fitness</span>. 
                   <br></br>
@@ -31,7 +31,6 @@ class Header extends React.Component{
                 <ul className="social">
                     <li><a target="_blank" rel="noopener noreferrer" href={info.links.linkedin}><i className="fab fa-linkedin" /></a></li>
                     <li><a target="_blank" rel="noopener noreferrer" href={info.links.github}><i className="fab fa-github" /></a></li>
-                    <li><a target="_blank" rel="noopener noreferrer" href={info.links.medium}><i className="fab fa-medium" /></a></li>
                 </ul>
             </div>
           </div>

@@ -1,10 +1,9 @@
 export const info = {
-    "name": "Mary Farner",
+    "name": "Mary Faynik",
 
     "links": {
         "github": "https://github.com/maryfarner18",
-        "linkedin": "https://www.linkedin.com/in/mary-farner/",
-        "medium": "https://medium.com/@maryfarner"
+        "linkedin": "https://www.linkedin.com/in/mary-faynik/",
     }
 }
     

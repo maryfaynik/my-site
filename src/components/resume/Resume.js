@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import resumeData from './resumeData'
-import { Label, Icon } from 'semantic-ui-react'
+import { Label } from 'semantic-ui-react'
 
 class Resume extends Component {
     
