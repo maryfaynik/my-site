@@ -1,5 +1,5 @@
 let resumeData = {
-    "name": "Mary Faynik (Farner)",
+    "name": "Mary Faynik",
     "role": "Fullstack Developer",
     "work_experience": [
       {
