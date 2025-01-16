@@ -16,17 +16,17 @@ class About extends Component {
                 <div className="nine columns main-col">
                   <h2>About Me</h2>
                   <p> I grew up in Kalamazoo, Michigan, before heading to the East Coast to go to Yale. I walked on to the Women's Varsity Crew Team and majored in Computer Science and Math.
-                      After four years of problem sets and <a href="https://en.m.wikipedia.org/wiki/Indoor_rower">erg</a> tests, I moved from Connecticut to New York, and have since spent most of my professional career in New York City. 
+                      After four years of problem sets and <a href="https://en.m.wikipedia.org/wiki/Indoor_rower">erg</a> tests, I moved from Connecticut to New York City, where I spent most of my professional career to date.
                       From Pet Care, to Finance, to Fitness, I've been in various different fields and roles to date, gaining experience in software development, devops, markets, finance, operations, project manangement, and business development.  
                       Outisde of work, I enjoy cycling, running and all other forms of exercise, and I've completed multiple marathons and one IRONMAN 140.6 race to date. I'm currently focused road cycling and racing.
-                      When I'm not working out, I'm usually hanging out with my dog, Oberon. 
+                      When I'm not working out, I'm usually outside hanging with my husband, daughter, and our dog, Oberon.
                   </p>
                   <div className="row">
                     <div className="columns contact-details">
                       <br></br>
                       <h2>Contact Details</h2>
                       <p className="address">
-                        <span><a href="mailto: maryfarner@gmail.com">maryfarner@gmail.com</a></span>
+                        <span><a href="mailto: maryfaynik@gmail.com">maryfaynik@gmail.com</a></span>
                       </p>
                     </div>
                     <div className="columns download">

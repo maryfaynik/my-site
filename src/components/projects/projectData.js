@@ -17,21 +17,18 @@ export const projects = [
     },
     {
         "id": 3,
-        "title": "Maintenance and Growth of Third-Party Integrations",
-        "image": "./images/integration.png",
-        "short_description": "[Milo] Maintained and built upon interfaces with third party APIs and their related processes within the web app",
-        "long_description": "[Milo] Maintained and built upon interfaces with third party APIs and their related processes within the web app. Built additional functionality with external APIs, maintained updates to existing processes, and developed new in-app features relying on integrations with APIs including Twilio, Printnode, Delighted, Stripe, Shippo, Antech, IDEXX, Zoetis.",
-        "tags": "APIs, Ruby on Rails, Integrations, webhooks"
+        "title": "Automated Reminders and Lab Result Communications",
+        "image": "./images/reminders.png",
+        "short_description": "[Bond Vet] Automatic client communications for normal lab results and upcoming vaccine and wellness reminders",
+        "long_description": "[Bond Vet] Integrates Vetspire data surrounding lab results, immunizations, and reminders to provide clients with timely and accurate updates about pertinent information regarding their pet. Enables clinic staff to focus on the pressing needs in the hospital rather than tedious, routine day-to-day messaging."
     },
     {
         "id": 4,
-        "title": "46North.org",
-        "live": "https://46north.org",
-        "image": "./images/46North.png",
-        "short_description": "Non-profit Organization website",
-        "long_description": "Website for 46North, a foundation created to better focus the charitable work of the Farner family.",
-        "tags": "JS, Node.JS, React"
-    },
+        "title": "Vetspire Extension - Text Messaging Platform",
+        "image": "./images/sms.png",
+        "short_description": "[Bond Vet] Text messaging platform built 'on top' of Vetspire, integrating with Zendesk and Twilio",
+        "long_description": "[Bond Vet] Built an integrated read & write interface for text messaging that connects in-clinic communications with centralized support center support in order to provide a complete view of client communications in one place. Integrations include the Vetspire API, the Zendesk Ticketing API, Sunshine Conversations API, and the Twilio Messaging API"
+    }
     
 
     

@@ -19,11 +19,11 @@ class Header extends React.Component{
           <div className="row banner">
             <div className="banner-text">
                 <h1 className="responsive-headline">I'm {info.name}</h1>
-                <h2><em>Full stack developer</em> experienced in React, Rails, and Node.js based <span>web development.</span>
+                <h2><em>Full stack developer</em> experienced in React, Rails, and Node.js based <em>web development.</em>
                   <br></br>
-                  Background in <span>computer science</span> and experience in <span>pet care</span>, <em>finance</em>, and <span>fitness</span>. 
+                  Background in <em>computer science</em> and experience in <em>pet care</em>, <em>finance</em>, and <em>fitness</em>.
                   <br></br>
-                  Strong <em>business and product understanding</em> along with <em>people and project management</em> skills to help small teams drive <span>growth</span> and <span>success.</span>
+                  Strong <em>business and product understanding</em> along with <em>people and project management</em> skills to help small teams drive <em>growth</em> and <em>success.</em>
                 </h2>
                 <br></br>
                 <h3>Start scrolling to learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
