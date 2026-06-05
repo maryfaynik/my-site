@@ -16,10 +16,9 @@ class About extends Component {
                 <div className="nine columns main-col">
                   <h2>About Me</h2>
                   <p> I grew up in Kalamazoo, Michigan, before heading to the East Coast to go to Yale. I walked on to the Women's Varsity Crew Team and majored in Computer Science and Math.
-                      After four years of problem sets and <a href="https://en.m.wikipedia.org/wiki/Indoor_rower">erg</a> tests, I moved from Connecticut to New York City, where I spent most of my professional career to date.
-                      From Pet Care, to Finance, to Fitness, I've been in various different fields and roles to date, gaining experience in software development, devops, markets, finance, operations, project manangement, and business development.  
-                      Outisde of work, I enjoy cycling, running and all other forms of exercise, and I've completed multiple marathons and one IRONMAN 140.6 race to date. I'm currently focused road cycling and racing.
-                      When I'm not working out, I'm usually outside hanging with my husband, daughter, and our dog, Oberon.
+                      After four years of problem sets and <a href="https://en.m.wikipedia.org/wiki/Indoor_rower">erg</a> tests, I moved from Connecticut to New York City, where I spent most of my professional career — working across Pet Care, Finance, Fitness, and Tech, and gaining experience in software development, devops, markets, finance, operations, project management, and business development.
+                      After nearly a decade in New York, I made my way back home to Kalamazoo, where I now work remotely as a Staff Engineer at Bond Vet. My husband runs a bike shop in town, which means the bike-to-person ratio in our household is, let's say, ambitious.
+                      Outside of work, I enjoy cycling, running, and all other forms of exercise, and I've completed multiple marathons and one IRONMAN 140.6 race to date. These days I'm mostly focused on gravel cycling and running races — not for podiums, just for the love of it, and the occasional excuse to be outside without a toddler or a dog attached.
                   </p>
                   <div className="row">
                     <div className="columns contact-details">

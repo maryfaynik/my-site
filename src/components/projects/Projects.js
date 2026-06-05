@@ -6,7 +6,7 @@ class Projects extends Component {
     renderProjects = () =>{
       return projects.map((project, index) => {
         return (
-          <div className="columns project-item" key={project.id}>
+          <div className="project-item" key={project.id}>
             <div className="item-wrap">
               <a href={`#modal-${index}`}>
                 <img alt="" src={project.image}/>
@@ -44,13 +44,12 @@ class Projects extends Component {
       return (
         <section id="projects">
           <div className="row">
-            <div className="twelve columns collapsed">
+            <div>
               <h1>Highlighted Projects</h1>
-              {/* project-wrapper */}
-              <div id="project-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+              <div id="project-wrapper">
                 {this.renderProjects()}
-              </div> {/* project-wrapper end */}
-            </div> {/* twelve columns end */}
+              </div>
+            </div>
             {/* Modal Popup---------------------------------- */}
             {this.renderModals()}
             
